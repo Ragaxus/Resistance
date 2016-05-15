@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resistance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="OK">OK</string>
+    <string name="generate_allegiances">Generate Allegiances</string>
+    <string name="youaremember">You are a member of</string>
+    <string name="youare">You are</string>
+    <string name="team1">The Resistance</string>
+    <string name="team2">The Spies</string>
+    <string name="avalon1">Merlin</string>
+    <string name="avalon2a">Percival</string>
+    <string name="avalon2b">Morgana</string>
+    <string name="cont">Swipe to the right to continue</string>
+    <string name="title_activity_role_card_viewer">RoleCardViewer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="pleasepass">Please pass the device to</string>
+    <string name="title_activity_player_select">PlayerSelect</string>
+    <string name="playerselecttitle">Player Select</string>
+    <string name="playerselect_delete_text">Remove</string>
+    <string name="playerselect_edit_text">Edit&#8230;</string>
+    <string name="title_activity_settings_activity">Settings</string>
+    <string name="title_activity_mission_roster">MissionRoster</string>
+    <string name="finalcard">click player name to see corresponding role card again:</string>
+    <string name="title_activity_test_mission_roster">TestMissionRoster</string>
+    <string name="run">Run</string>
+    <string name="title_activity_run_mission">RunMission</string>
+    <string name="confirm"> Confirm </string>
+    <string name="Continue">Continue</string>
+    <string name="title_activity_game_end">GameEnd</string>
+    <string name="playagain">Play Again?</string>
+    <string name="start">Start Game</string>
+    <string name="killmerlin">Assassinate</string>
+    <string name="killmerlinheader">Select a Resistance member to assassinate:</string>
+
+</resources>

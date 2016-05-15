@@ -1,0 +1,7 @@
+<resources>    
+    <integer name="FAILED_ROSTERS">-100</integer>
+    <integer name="SPIES_WIN">-1</integer>
+    <integer name="MERLIN_ASSASSINATED">-50</integer>
+    <integer name="RES_WIN">1</integer>
+
+</resources>

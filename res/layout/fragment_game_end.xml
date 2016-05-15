@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aufbau.resistance.WhoWon" >
+
+    <TextView
+        android:id="@+id/whowonheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_world"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:id="@+id/whowonicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whowonheader"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/game_end_fail_assassination" />
+
+    <TextView
+        android:id="@+id/whowondesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whowonicon"
+        android:layout_centerHorizontal="true"
+        android:text="Description of result goes here."
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/playagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="@string/playagain" />
+
+</RelativeLayout>

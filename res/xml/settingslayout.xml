@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Avalon" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="merlin"
+            android:summary="Include Merlin as an available role."
+            android:title="Merlin" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="percmorg"
+            android:summary="Include Percival and Morgana as available roles."
+            android:title="Percival and Morgana"
+            android:dependency="merlin" />
+
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Variants" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="blindSpies"
+            android:summary="Don't tell the spies who the other spies are."
+            android:title="Blind Spies" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aufbau.resistance"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name="com.aufbau.resistance.Resistance"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.aufbau.resistance.MainPage" >
+        </activity>
+        <activity
+            android:name="com.aufbau.resistance.RoleCardViewer"
+            android:parentActivityName="com.aufbau.resistance.PlayerSelect" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.resistance.PlayerSelect" />
+        </activity>
+        <activity
+            android:name="com.aufbau.resistance.PlayerSelect"
+            android:label="@string/title_activity_player_select" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- Check this one -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aufbau.resistance.SettingsActivity"
+            android:label="@string/title_activity_settings_activity" >
+        </activity>
+        <activity
+            android:name="com.aufbau.resistance.GameLoop"
+            android:label="@string/title_activity_test_mission_roster" >
+        </activity>
+        <activity
+            android:name="com.example.resistance.RunMission"
+            android:label="@string/title_activity_run_mission" >
+        </activity>
+        <activity
+            android:name="com.aufbau.resistance.GameEnd"
+            android:label="@string/title_activity_game_end" >
+        </activity>
+    </application>
+
+</manifest>

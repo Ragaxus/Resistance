@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@+color/Black"
+    tools:context=".RunMission$PassFail" >
+
+    <ImageView
+        android:id="@+id/bluered"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/bluered" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/strokeshape"
+        android:text="@string/confirm"
+        android:textColor="@+color/White" />
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/blackrect"
+        android:minHeight="70sp"
+        android:minWidth="150sp" />
+
+   <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/bluered"
+       android:layout_alignParentRight="true"
+       android:layout_marginBottom="40dp"
+       android:background="@drawable/blackrect"
+       android:minHeight="70sp"
+       android:minWidth="150sp" />
+
+   <TextView
+       android:id="@+id/textBottomRight"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/imageView2"
+       android:layout_alignLeft="@+id/imageView2"
+       android:text="Fail"
+       android:textColor="@color/White"
+       android:textSize="48sp" />
+
+   <TextView
+       android:id="@+id/textTopLeft"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/imgView1"
+       android:layout_alignTop="@+id/imgView1"
+       android:text="Pass"
+       android:textColor="@color/White"
+       android:textSize="48sp" />
+
+</RelativeLayout>

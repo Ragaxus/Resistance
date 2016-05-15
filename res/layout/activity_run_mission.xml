@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.resistance.RunMission"
+    tools:ignore="MergeRootFrame" >
+
+    <com.aufbau.resistance.DiodePager
+        android:id="@+id/runmispager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.aufbau.resistance.DiodePager>
+
+</FrameLayout>
